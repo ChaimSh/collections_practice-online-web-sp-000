@@ -29,7 +29,7 @@ def swap_elements(array)
 z = array[0]
 x = array[1]
 y = array[2]
-array.reverse(x,y)
+z,x,y = z,y,x
 end
 
 def reverse_array(array)
