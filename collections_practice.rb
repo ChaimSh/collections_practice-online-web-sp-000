@@ -12,6 +12,14 @@ def sort_array_char_count(array)
 array.sort{|x, y| x.length <=> y.length} #sorting x <=> y based on length.
 end
 
+
+class Array
+    def swap!(a,b)
+         self[a], self[b] = self[b], self[a]
+    self
+    end
+end
+
 def swap_elements(array)
 array.swap!(1,2)
 end
