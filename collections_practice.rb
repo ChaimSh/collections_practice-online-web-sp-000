@@ -8,6 +8,6 @@ def sort_array_desc(array)
 end
 end
 
-def reverse_array(arrat)
+def reverse_array(array)
   array.reverse
 end
