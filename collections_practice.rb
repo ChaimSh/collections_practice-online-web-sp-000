@@ -12,7 +12,7 @@ def sort_array_char_count(array)
 array.sort{|x, y| x.length <=> y.length} #sorting x <=> y based on length.
 end
 
-=begin
+
 class Array
     def swap!(a,b)
          self[a], self[b] = self[b], self[a]
@@ -23,15 +23,23 @@ end
 def swap_elements(array)
 array.swap!(1,2)
 end
-=end
 
-def swap_elements(array)
+=begin
+  def swap_elements(array)
 z = array[0]
 x = array[1]
 y = array[2]
 z,x,y = z,y,x
 end
+=end
 
 def reverse_array(array)
   array.reverse
+end
+
+def kesha_maker(array)
+  array.collect do |element|
+     element[2] = "$"
+     element  
+end
 end
