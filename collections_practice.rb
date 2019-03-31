@@ -13,7 +13,7 @@ array.sort{|x, y| x.length <=> y.length} #sorting x <=> y based on length.
 end
 
 def swap_elements(array)
-array[1], array[2] = array[2], array[1]
+arrray[0], array[1], array[2] = array[0] array[2], array[1]
 end
 
 def reverse_array(array)
