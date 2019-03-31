@@ -30,7 +30,7 @@ x = array[1]
 y = array[2]
 x,y = y,x
 end
-  
+
 def reverse_array(array)
   array.reverse
 end
